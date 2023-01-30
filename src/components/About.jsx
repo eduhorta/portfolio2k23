@@ -6,10 +6,7 @@ function About() {
       <h5 className="mt-32">Get To Know</h5>
       <h1 className="text-center text-sky-500">About me</h1>
       <div className="flex flex-col items-center justify-center md:flex-row">
-        <img
-          className="mt-8 w-56 rounded-2xl md:w-80 "
-          src="./src/assets/eu-mesmo2.jpg"
-        />
+        <img className="mt-8 w-56 rounded-2xl md:w-80 " src="./eu-mesmo2.jpg" />
         <div className="mt-8 flex w-96 flex-col items-center justify-center">
           <div className="mb-6 flex space-x-6">
             <a

@@ -26,7 +26,7 @@ function Header() {
           </div>
           <img
             className="mx-auto mt-8 w-48 rounded-full"
-            src="./src/assets/eu-mesmo.jpg"
+            src="./eu-mesmo.jpg"
           />
         </div>
       </div>
