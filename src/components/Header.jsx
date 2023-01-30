@@ -5,7 +5,7 @@ function Header() {
     <header>
       <div className="mt-20 text-center">
         <h5 className="text-lg">Hello, I am</h5>
-        <h1 className="mt-3 text-4xl">Eduardo Horta</h1>
+        <h1 className="mt-3 text-4xl text-sky-500">Eduardo Horta</h1>
         <h5 className="text-lg text-gray-400">Aspiring Front-End Developer</h5>
         <div className="relative">
           <div className="absolute ml-6 flex h-full w-1/5 items-center">

@@ -7,12 +7,15 @@ function About() {
       <h1 className="text-center text-sky-500">About me</h1>
       <div className="flex flex-col items-center justify-center md:flex-row">
         <img
-          className="mt-8 w-48 rounded-2xl md:w-80 "
+          className="mt-8 w-56 rounded-2xl md:w-80 "
           src="./src/assets/eu-mesmo2.jpg"
         />
         <div className="mt-8 flex w-96 flex-col items-center justify-center">
           <div className="mb-6 flex space-x-6">
-            <div className="flex h-24 w-24 flex-col items-center justify-center rounded-lg bg-sky-700 text-center hover:bg-sky-500">
+            <a
+              href="#portfolio"
+              className="flex w-24 flex-col items-center justify-center rounded-lg bg-sky-700 text-center hover:bg-sky-500 focus:outline-none focus:ring focus:ring-sky-300 active:bg-sky-700"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
@@ -30,8 +33,11 @@ function About() {
                 />
               </svg>
               <h5 className="mt-1">Projects</h5>
-            </div>
-            <div className="flex h-24 w-24 flex-col items-center justify-center rounded-lg bg-sky-700 text-center hover:bg-sky-500">
+            </a>
+            <a
+              href="#contact"
+              className="flex h-24 w-24 flex-col items-center justify-center rounded-lg bg-sky-700 text-center hover:bg-sky-500 focus:outline-none focus:ring focus:ring-sky-300 active:bg-sky-700"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
@@ -44,7 +50,7 @@ function About() {
                 />
               </svg>
               <h5>Experience</h5>
-            </div>
+            </a>
           </div>
           <ul className="ml-8 mr-8 space-y-2 text-sm">
             <li className="text-justify">
