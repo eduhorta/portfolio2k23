@@ -28,7 +28,7 @@ function Portfolio() {
           </a>
         </div>
         <div className="mt-8 rounded-lg outline outline-2 outline-sky-500">
-          <a href="https://memegenerator.vercel.app/">
+          <a href="https://memegenerator.vercel.app/" target="_blank">
             <img
               className="block h-[360px] w-[540px]"
               src="./meme.jpg"
