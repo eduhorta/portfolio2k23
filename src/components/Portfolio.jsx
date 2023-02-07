@@ -28,14 +28,16 @@ function Portfolio() {
           </a>
         </div>
         <div className="mt-8 rounded-lg outline outline-2 outline-sky-500">
-          <img
-            className="block h-[360px] w-[540px]"
-            src="./meme.jpg"
-            alt="memegenerator"
-          />
-          <h5 className="rounded-b-lg bg-sky-600 text-center">
-            Meme Generator
-          </h5>
+          <a href="https://memegenerator.vercel.app/">
+            <img
+              className="block h-[360px] w-[540px]"
+              src="./meme.jpg"
+              alt="memegenerator"
+            />
+            <h5 className="rounded-b-lg bg-sky-600 text-center">
+              Meme Generator
+            </h5>
+          </a>
         </div>
       </div>
     </section>
