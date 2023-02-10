@@ -39,6 +39,16 @@ function Portfolio() {
             </h5>
           </a>
         </div>
+        <div className="mt-8 rounded-lg outline outline-2 outline-sky-500">
+          <a href="https://tenzies-blush.vercel.app/" target="_blank">
+            <img
+              className="block h-[360px] w-[540px]"
+              src="./tenzies.jpg"
+              alt="tenzies"
+            />
+            <h5 className="rounded-b-lg bg-sky-600 text-center">Tenzies</h5>
+          </a>
+        </div>
       </div>
     </section>
   );
