@@ -16,18 +16,6 @@ function Portfolio() {
           </a>
         </div>
         <div className="mt-8 rounded-lg outline outline-2 outline-sky-500">
-          <a href="https://fiscalizacaointegrada.vercel.app/" target="_blank">
-            <img
-              className="block h-[360px] w-[540px]"
-              src="./fiscalizacao.jpg"
-              alt="fisc-image"
-            />
-            <h5 className="rounded-b-lg bg-sky-600 text-center">
-              Fiscalização Integrada
-            </h5>
-          </a>
-        </div>
-        <div className="mt-8 rounded-lg outline outline-2 outline-sky-500">
           <a href="https://memegenerator.vercel.app/" target="_blank">
             <img
               className="block h-[360px] w-[540px]"
